@@ -1,14 +1,21 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { HomepageComponent } from "./pages/homepage/homepage.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    imports: [
+        CommonModule,
+        RouterOutlet,
+        MenuBarComponent,
+        HomepageComponent
+    ]
 })
 export class AppComponent {
-  title = 'angular-blog-DIO';
+  title = 'angular-blog';
 }
