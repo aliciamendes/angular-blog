@@ -1,5 +1,12 @@
 .container_articles {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   margin-top: 1.8rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
 }
