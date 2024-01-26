@@ -1,27 +1,29 @@
-# AngularBlogDIO
+### ⚠️ EM DESENVOLVIMENTO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+# The Blogular
 
-## Development server
+Um projeto DIO para o Bootcamp de Desenvolvimento Frontend com Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![The Blog design](./src/assets/readme/the_angular.jpeg)
 
-## Code scaffolding
+## Inspiração
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Apesar de consolidar uma base sólida durante o bootcamp, busco expandir meu conhecimento e buscar inspirações adicionais para elevar a qualidade deste blog. Recentemente, encontrei no [Dribbble](https://dribbble.com/) um design fascinante criado por [Kazuya Horikirikawa](https://dribbble.com/kz18), que servirá como uma valiosa fonte de inspiração para aprimorar o visual e a experiência do usuário.
 
-## Build
+## Objetivo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Criação de um blog utilizando Angular para o desenvolvimento pessoal, como parte do desafio proposto pela DIO. O projeto busca explorar as capacidades do Angular na construção de uma plataforma interativa e responsiva. O blog finalizado será submetido como parte do desafio, contribuindo para o aprimoramento de habilidades e cumprimento dos objetivos do programa.
 
-## Running unit tests
+## Para rodar o projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Garanta que você tenha o `node` e o `git` instalados em sua máquina;
+- Faça o clone do projeto com `git clone https://github.com/aliciamendes/angular-blog`;
+- Entre na pasta DIO_Angular_Blog com `cd angular-blog-DIO` e instale as dependências com `npm install`;
+- Se não tiver o Angular CLI instalado na sua máquina, instale-o globalmente com o código `npm install -g @angular/cli`
+- Rode a aplicação com `npm start`. O app será executado na porta `4200` e irá abrir automaticamente no navegador.
 
-## Running end-to-end tests
+## Links Úteis
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Dribbble - Kazuya Horikirikawa ](https://dribbble.com/shots/4055335-Blog-Site)
+- [DIO - Digital Innovation One](https://www.dio.me/)
+- [Angular Docs](https://angular.io/docs)

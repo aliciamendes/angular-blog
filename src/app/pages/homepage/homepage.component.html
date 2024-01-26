@@ -9,12 +9,25 @@
 <!-- Body -->
 <div class="container_articles">
   <div class="articles_main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      [image_bigcard]="imageBig"
+      [title_bigcard]="titleBig"
+      [text_bigcard]="textBig"
+    ></app-big-card>
   </div>
 
   <div class="articles_others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      [image_smallcard]="imageSmall"
+      [text_smallcard]="textSmall"
+    ></app-small-card>
+    <app-small-card
+      [image_smallcard]="imageSmall"
+      [text_smallcard]="textSmall"
+    ></app-small-card>
+    <app-small-card
+      [image_smallcard]="imageSmall"
+      [text_smallcard]="textSmall"
+    ></app-small-card>
   </div>
 </div>
