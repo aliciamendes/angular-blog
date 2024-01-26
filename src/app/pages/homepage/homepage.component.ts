@@ -28,4 +28,6 @@ export class HomepageComponent {
   titleSmall: string = 'Angular News';
   textSmall: string =
     '  Lorem ipsum dolor sit amet consectetur adipisicing elit.';
+
+
 }

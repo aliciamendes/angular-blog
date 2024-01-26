@@ -1,8 +1,3 @@
-<!-- NavBar Comp -->
-<header>
-  <app-menu-bar></app-menu-bar>
-</header>
-
 <!-- Title Comp -->
 <app-menu-tittle></app-menu-tittle>
 
@@ -10,24 +5,28 @@
 <div class="container_articles">
   <div class="articles_main">
     <app-big-card
-      [image_bigcard]="imageBig"
-      [title_bigcard]="titleBig"
-      [text_bigcard]="textBig"
+      id="1"
+      image_bigcard="https://miro.medium.com/v2/resize:fit:720/format:webp/1*xs2QGeSb8ENJlJcwTQ73Kg.jpeg"
+      title_bigcard="Introducing Puppeteer Schematics: Test Your Angular Apps with Ease"
+      text_bigcard="Puppeteer, a powerful tool for automating browser interactions, is now even easier to integrate with your Angular projects thanks to the newly released @puppeteer/ng-schematics package.This package provides an out-of-the-box experience for setting up and running Puppeteer tests, minimizing the configuration burden and accelerating your automation journey — especially creating end-to-end tests!"
     ></app-big-card>
   </div>
 
   <div class="articles_others">
     <app-small-card
-      [image_smallcard]="imageSmall"
-      [text_smallcard]="textSmall"
+      id="2"
+      image_smallcard="https://miro.medium.com/v2/resize:fit:720/format:webp/0*i1IlGxbofpTcpqbP"
+      text_smallcard="Angular Developer Survey 2023"
     ></app-small-card>
     <app-small-card
-      [image_smallcard]="imageSmall"
-      [text_smallcard]="textSmall"
+      id="3"
+      image_smallcard="https://miro.medium.com/v2/resize:fit:720/format:webp/0*LSNoSU-BTMTfpgZr"
+      text_smallcard="Use Angular’s New Deferrable Views Now"
     ></app-small-card>
     <app-small-card
-      [image_smallcard]="imageSmall"
-      [text_smallcard]="textSmall"
+      id="4"
+      image_smallcard="https://miro.medium.com/v2/resize:fit:720/format:webp/0*DTy8tlNHXGc0g4sB"
+      text_smallcard="Introducing Angular v17"
     ></app-small-card>
   </div>
 </div>
